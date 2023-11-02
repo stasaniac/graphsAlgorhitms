@@ -1,13 +1,13 @@
-# Assignment 3
+# Practically Handling Graphcs
 
 This archive contains instructions/information if you wish to develop and test you code locally.
 
-The `src/` folder contains the boilerplate files (similarly to the CodeGrade editor). You can copy paste your code to the respective CodeGrade task once you are done.
+The `src/` folder contains the boilerplate files. 
 
 
 ## Quick setup
 > **Note**
-> This setup will use the default python installed on your machine. It is convenient in order to test the correctness of your program but might yield wrong execution times as on CodeGrade we use [PyPy](https://www.pypy.org/).
+> This setup will use the default python installed on your machine. It is convenient in order to test the correctness of your program but might yield wrong execution times we use [PyPy](https://www.pypy.org/).
 
 ```bash
 # Install the required packages to python
@@ -21,10 +21,10 @@ pytest test_assignment_3_shared
 ```
 
 ## Pyenv setup
-If you wish to test locally in a similar environment as the `CodeGrade` instances, and, are familiar with [pyenv](https://github.com/pyenv/pyenv), you can use the following setup. If you are more familiar with `conda` you can search on the web on how to install PyPy there.
+If you wish to test locally in a similar environment as instances, and, are familiar with [pyenv](https://github.com/pyenv/pyenv), you can use the following setup. If you are more familiar with `conda` you can search on the web on how to install PyPy there.
 
 > **Warning**
-> Keep in mind that while PyPy will be used if you follow the setup, execution times might still be affected by the power of your machine. **You code is graded on whether the tests pass on CodeGrade and not your own machines**
+> Keep in mind that while PyPy will be used if you follow the setup, execution times might still be affected by the power of your machine.
 
 
 ```bash
